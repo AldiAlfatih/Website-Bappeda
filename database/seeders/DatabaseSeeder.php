@@ -19,7 +19,11 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+<<<<<<< HEAD
         $this->call(RuleSeeder::class); 
 
+=======
+        $this->call(RuleSeeder::class);
+>>>>>>> aead866 (update day 3 aldi)
     }
 }

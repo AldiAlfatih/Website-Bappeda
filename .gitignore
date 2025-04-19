@@ -1,4 +1,8 @@
 /.phpunit.cache
+<<<<<<< HEAD
+=======
+/bootstrap/ssr
+>>>>>>> aead866 (update day 3 aldi)
 /node_modules
 /public/build
 /public/hot

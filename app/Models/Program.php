@@ -8,10 +8,11 @@ class Program extends Model
 {
     //
     protected $table = 'program';
-    protected $fillable = ['nama', 'kode', 'program_id'];
+    protected $fillable = ['nama', 'kode'];
 
-    public function subkegiatan(): HasMany
+    public function kegiatan():HasMany
     {
-        return $this->hasMany(SubKegiatan::class, 'kegiatan_id');
+        return $this->hasMany(Kegiatan::class, 'kegiatan_id');
     }
 }
+
